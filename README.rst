@@ -1,6 +1,3 @@
-.. image:: https://badge.waffle.io/it-geeks-club/pyspectator.png?label=ready&title=Ready
- :target: https://waffle.io/it-geeks-club/pyspectator
- :alt: 'Stories in Ready'
 =======
 Summary
 =======
@@ -16,42 +13,6 @@ Requirements
 - Python version: 3.X
 - Packages: psutil, netifaces, wmi (only on Windows), enum34 (only on python 3.0.0 - 3.4.0)
 - For Windows OS Microsoft Visual C++ 10.0 or higher is required
-
-==============
-How to install
-==============
-
-Run as root user:
-
-.. code-block:: bash
-
-    pip install pyspectator
-
-
-
-================
-Example of usage
-================
-
-There is simple project named `pyspectator_tornado <https://github.com/uzumaxy/pyspectator_tornado>`_
-developed special for demonstration of pyspectator features.
-
-.. image:: http://i.imgur.com/yUjNlyQ.png
-    :target: http://i.imgur.com/LFMmfHu.png
-    :alt: General information
-
-.. image:: http://i.imgur.com/omNJhno.png
-    :target: http://i.imgur.com/r0RuV2m.png
-    :alt: CPU
-
-.. image:: http://i.imgur.com/qc3NwBa.png
-    :target: http://i.imgur.com/zA7mteS.png
-    :alt: Disk devices
-
-.. image:: http://i.imgur.com/Dugsnr6.png
-    :target: http://i.imgur.com/rDadDzn.png
-    :alt: Network
-
 
 
 ==========
