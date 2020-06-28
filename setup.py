@@ -1,7 +1,7 @@
 """
 Installation script
 
-Version: 1.2.1
+Version: 1.2.2
 """
 
 import sys
@@ -62,17 +62,17 @@ def main():
         long_description = readme_reader.read()
     # Describe installer
     settings = {
-        'name': 'pyspectator',
-        'version': '1.2.1',
+        'name': 'pyspectator-x',
+        'version': '1.2.2',
         'author': 'Maxim Grischuk',
         'author_email': 'uzumaxy@gmail.com',
-        'maintainer': 'Maxim Grischuk',
-        'maintainer_email': 'uzumaxy@gmail.com',
+        'maintainer': 'maximilionus',
+        'maintainer_email': 'maximilionuss@gmail.com',
         'packages': ['pyspectator'],
-        'url': 'https://github.com/it-geeks-club/pyspectator',
-        'download_url': 'https://github.com/it-geeks-club/pyspectator/releases',
+        'url': 'https://github.com/maximilionus/pyspectator-x',
+        'download_url': 'https://github.com/maximilionus/pyspectator-x/releases',
         'license': 'BSD',
-        'description': 'pyspectator is a Python cross-platform tool for '
+        'description': 'pyspectator-x is an enhanced Python cross-platform tool for '
                        'monitoring OS resources.',
         'long_description': long_description,
         'install_requires': requires,
